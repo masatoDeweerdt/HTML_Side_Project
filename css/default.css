@@ -1,0 +1,177 @@
+body {
+    font-family: 'roboto';
+    background: #F4F7F6;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background: #1d1d1d;
+    color: rgb(247, 241, 241);
+    padding-bottom: 30px;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'cloisterblack';
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+h1:active {
+    color: red;
+
+}
+
+h2 {
+    font-family: 'open sans';
+    font-size: 1.5em;
+    width: 400px;
+    margin: auto;
+}
+
+h3:before {
+    content: "«" ;
+    color: grey;
+}
+
+h3:after {
+    content: "»";
+    color: grey;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: initial;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+ul {
+    padding: 0;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    background: white;
+    box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.5);
+    font-size: 1.1em;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1D1D1D;
+    color: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ID */
+#contact {
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#projet {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* LOGO */
+
+#logo {
+    margin-top: 30px;
+    width: 50px;
+}
+
+#projet {
+
+}
+
+/* CLASSES */
+
+.separator {
+    width: 40px;
+    height: 1px;
+    margin: 15px auto;
+    display: block;
+    background-color: #999999;
+}
+
+.contener {
+    width: 80%;
+    margin: auto;
+}
+
+.projet {
+    width: 400px;
+    margin: 30px;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.projet:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.2s;
+}
+
+.projet img {
+    min-width: 400px;
+    height: 266px;
+}
+
+.projet span {
+    text-transform: uppercase;
+    display: block;
+}
+
+.projet .date-project {
+    font-size: 0.7em;
+}
+
+.picture {
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+/* POLICE */
+@font-face {
+    font-family: 'cloisterblack' ;
+    src: url('../src/cloisterblack.ttf') format('truetype');
+}
